@@ -1,0 +1,1 @@
+{ "url": "postgres://sage@localhost:5432/tamias-ui-test?sslmode=disable&password=secret_pass", "migration-folder": "migrations", "dump-file": "migrations/dump.sql", "seed-tables": [] }
