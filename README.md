@@ -1,6 +1,18 @@
-## Installation
+# Tamias User Interface
 
-1. Install PostgreSQL 9.4.x
+A web user interface to manage resources in a multi-tenant Kubernetes cluster.
+
+## Requirements
+
+A Kubernetes cluster.
+
+## Persistence
+
+The database part is provied by PostDock.
+
+For Background see the [article by the author](https://hackernoon.com/postgresql-cluster-into-kubernetes-cluster-f353cde212de).
+
+## Installation for Development
 
 2. Install Go 1.4.x, git, setup `$GOPATH`, and `PATH=$PATH:$GOPATH/bin`
 

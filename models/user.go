@@ -19,7 +19,9 @@ func NewUser(db *sqlx.DB) *User {
 
 type UserRow struct {
 	ID       int64  `db:"id"`
+        UserName string `db:"username`
 	Email    string `db:"email"`
+        IsAdmin  bool   `db:"is_admin"`
 	Password string `db:"password"`
 }
 
